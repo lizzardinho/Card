@@ -1,0 +1,569 @@
+body {
+    background: white;
+  }
+  
+  main {
+    animation: float 2.5s ease-in-out infinite;
+    
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translateY(5px);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+    100% {
+      transform: translateY(5px);
+    }
+  }
+  
+  .container {
+    background: white;
+    border-radius: 50%;
+    height: 450px;
+    width: 425px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 150px;
+  }
+  .contorno {
+    width: 50px;
+    height: 7px;
+    background: gray;
+    margin-left: 170px;
+    margin-top: -70px;
+  }
+  
+  .olho-1 {
+    width: 12px;
+    height: 15px;
+    background: black;
+    margin-left: 19px;
+  }
+  
+  .olho-esq {
+    width: 7px;
+    height: 20px;
+    background: black;
+    margin-left: 20px;
+  }
+  
+  .olho-dir {
+    width: 8px;
+    height: 11px;
+    background: black;
+    margin-left: 30px;
+  }
+  
+  .olho-2 {
+    width: 13px;
+    height: 10px;
+    background: black;
+    margin-left: 30px;
+  }
+  
+  .olho-3 {
+    width: 20px;
+    height: 10px;
+    background: black;
+    margin-left: 50px;
+  }
+  
+  .boca {
+    width: 20px;
+    height: 5px;
+    background: black;
+    margin-left: 55px;
+  }
+  
+  .pixel-esquerda-1 {
+    width: 12px;
+    height: 7px;
+    background: gray;
+    margin-left: 160px;
+  }
+  
+  .pixel-dir-1 {
+    width: 12px;
+    height: 7px;
+    background: gray;
+    margin-left: 60px;
+  }
+  
+  .pixel-esquerda-2 {
+    width: 8px;
+    height: 8px;
+    background: gray;
+    margin-left: 152px;
+    margin-top: 0px;
+  }
+  
+  .pixel-dir-2 {
+    width: 12px;
+    height: 7px;
+    background: gray;
+    margin-left: 75px;
+  }
+  
+  .pixel-esquerda-3 {
+    width: 8px;
+    height: 9px;
+    background: gray;
+    margin-left: 147px;
+    margin-top: 0px;
+  }
+  
+  .pixel-dir-3 {
+    width: 9px;
+    height: 6px;
+    background: gray;
+    margin-left: 90px;
+  }
+  
+  .pixel-esquerda-4 {
+    width: 7px;
+    height: 20px;
+    background: gray;
+    margin-left: 140px;
+  }
+  
+  .pixel-dir-4 {
+    width: 7px;
+    height: 6px;
+    background: gray;
+    margin-left: 105px;
+  }
+  .pixel-esquerda-5 {
+    width: 6px;
+    height: 26px;
+    background: gray;
+    margin-left: 136px;
+    margin-top: 0px;
+  }
+  
+  .topo-braco {
+    width: 30px;
+    height: 7px;
+    background: gray;
+    margin-left: 112px;
+    margin-top: 0px;
+  }
+  
+  .px-br-1 {
+    width: 8px;
+    height: 7px;
+    background: gray;
+    margin-left: 105px;
+    margin-top: 0px;
+  }
+  
+  .px-br-2 {
+    width: 6px;
+    height: 12px;
+    background: gray;
+    margin-left: 102px;
+    margin-top: 0px;
+  }
+  
+  .px-br-3 {
+    width: 6px;
+    height: 20px;
+    background: gray;
+    margin-left: 100px;
+    margin-top: 0px;
+  }
+  
+  .final-br {
+    width: 30px;
+    height: 6px;
+    background: gray;
+    margin-left: 106px;
+    margin-top: 0px;
+  }
+  
+  .manga-1 {
+    width: 5.5px;
+    height: 5px;
+    background: gray;
+    margin-left: 111px;
+  }
+  
+  .manga-2 {
+    width: 5px;
+    height: 7px;
+    background: gray;
+    margin-left: 116px;
+  }
+  
+  .manga-3 {
+    width: 16px;
+    height: 5px;
+    background: gray;
+    margin-left: 120px;
+  }
+  
+  .corpo-esq {
+    width: 7px;
+    height: 79px;
+    background: gray;
+    margin-left: 25px;
+  }
+  
+  .corpo-dir {
+    width: 7px;
+    height: 80px;
+    background: gray;
+    margin-left: 158px;
+  }
+  
+  .pixel-dir1 {
+    width: 5px;
+    height: 20px;
+    background: gray;
+    margin-left: 163px;
+  }
+  
+  .inf-1 {
+    width: 12px;
+    height: 7px;
+    background: gray;
+    margin-left: 143px;
+    margin-top: 65px;
+  }
+  
+  .inf-2 {
+    width: 12px;
+    height: 7px;
+    background: gray;
+    margin-left: 155px;
+    margin-top: 1px;
+  }
+  
+  .inf-3 {
+    width: 12px;
+    height: 7px;
+    background: gray;
+    margin-left: 25px;
+  }
+  
+  .inf-4 {
+    width: 12px;
+    height: 7px;
+    background: gray;
+    margin-left: 27px;
+    margin-top: 1px;
+  }
+  
+  .inf-5 {
+    width: 12px;
+    height: 7px;
+    background: gray;
+    margin-left: 25px;
+  }
+  
+  .inf-6 {
+    width: 12px;
+    height: 7px;
+    background: gray;
+    margin-left: 60px;
+  }
+  .inf-6 {
+    width: 12px;
+    height: 7px;
+    background: gray;
+    margin-left: 60px;
+  }
+  .inf-7 {
+    width: 12px;
+    height: 7px;
+    background: gray;
+    margin-left: 73px;
+  }
+  .inf-8 {
+    width: 40px;
+    height: 7px;
+    background: gray;
+    margin-left: 45px;
+  }
+  .manga-dir-1 {
+    width: 16px;
+    height: 5px;
+    background: gray;
+    margin-left: 120px;
+  }
+  
+  .dir-pixel-1 {
+    width: 16px;
+    height: 5px;
+    background: gray;
+    margin-left: 120px;
+  }
+  
+  .dir-pixel-2 {
+    width: 9px;
+    height: 5px;
+    background: gray;
+    margin-left: 115px;
+  }
+  
+  .dir-pixel-3 {
+    width: 5px;
+    height: 3px;
+    background: gray;
+    margin-left: 10px;
+  }
+  .sombra {
+    width: 100px;
+    height: 10px;
+    background: #4c4e52;
+    margin-left: 150px;
+  }
+  
+  .sombra1 {
+    width: 80px;
+    height: 5px;
+    background: #4c4e52;
+    margin-left: 160px;
+    margin-top: 20px;
+  }
+  
+  .sombra2 {
+    width: 90px;
+    height: 5px;
+    background: #4c4e52;
+    margin-left: 155px;
+  }
+  
+  .sombra3 {
+    width: 75px;
+    height: 5px;
+    background: #4c4e52;
+    margin-left: 163px;
+  }
+  
+  .sombra-1 {
+    width: 10px;
+    height: 50px;
+    background: #d3d3d3;
+    margin-left: 30px;
+  }
+  .sombra-2 {
+    width: 8px;
+    height: 80px;
+    background: #d3d3d3;
+    margin-left: 54px;
+  }
+  
+  .sombra-3 {
+    width: 8px;
+    height: 57px;
+    background: #d3d3d3;
+    margin-left: 15px;
+  }
+  
+  .sombra-4 {
+    width: 8px;
+    height: 85px;
+    background: #d3d3d3;
+    margin-left: 50px;
+  }
+  
+  .sombra-5 {
+    width: 8px;
+    height: 85px;
+    background: #d3d3d3;
+    margin-left: 89px;
+  }
+  
+  .sombra-6 {
+    width: 40px;
+    height: 85px;
+    background: #d3d3d3;
+    margin-left: 107px;
+  }
+  
+  /* sombra na cabeça */
+  .cbc-sbr1 {
+    width: 50px;
+    height: 5px;
+    background: #d3d3d3;
+    margin-left: 0px;
+  }
+  
+  .cbc-sbr2 {
+    width: 20px;
+    height: 20px;
+    background: #d3d3d3;
+    margin-left: 60px;
+  }
+  
+  .cbc-sbr3 {
+    width: 12px;
+    height: 40px;
+    background: #d3d3d3;
+    margin-left: px;
+  }
+  
+  /* outro bracinho */
+  
+  .manga-dir-1 {
+    width: 16px;
+    height: 5px;
+    background: gray;
+    margin-left: 120px;
+  }
+  
+  .dir-pixel-1 {
+    width: 18px;
+    height: 5px;
+    background: gray;
+    margin-left: 120px;
+  }
+  
+  .dir-pixel-2 {
+    width: 9px;
+    height: 5px;
+    background: gray;
+    margin-left: 115px;
+  }
+  
+  .dir-pixel-2-1 {
+    width: 6px;
+    height: 5px;
+    background: gray;
+    margin-left: 26px;
+  }
+  
+  .dir-pixel-3 {
+    width: 5px;
+    height: 15px;
+    background: gray;
+    margin-left: 115px;
+  }
+  
+  .dir-pixel-4 {
+    width: 5px;
+    height: 15px;
+    background: gray;
+    margin-left: 79px;
+  }
+  
+  .dir-pixel-5 {
+    width: 27px;
+    height: 6px;
+    background: gray;
+    margin-left: 85px;
+  }
+  
+  .dir-pixel-6 {
+    width: 4px;
+    height: 12px;
+    background: gray;
+    margin-left: 95px;
+  }
+  
+  .dir-pixel-7 {
+    width: 4px;
+    height: 12px;
+    background: gray;
+    margin-left: 25px;
+  }
+  
+  .dir-pixel-8 {
+    width: 4px;
+    height: 11px;
+    background: gray;
+    margin-left: 30px;
+  }
+  
+  .sombra-esq{
+    width: 15px;
+    height: 23px;
+    background: #d3d3d3;
+    margin-left: 20px; 
+  }
+  .sombra-esqq{
+    width: 15px;
+    height: 4.5px;
+    background: #d3d3d3;
+    margin-left: 3.5px;
+  }
+  
+  .
+  
+  /* outra parte da cabeça */
+  
+  .pixel-dir-5 {
+    width: px;
+    height: 15px;
+    background: gray;
+    margin-left: 3px;
+  }
+  
+  .pixel-dir-6 {
+    width: 5px;
+    height: 30px;
+    background: gray;
+    margin-left: 3px;
+  }
+  
+  .pixel-dir-7 {
+    width: 5px;
+    height: 26px;
+    background: gray;
+    margin-left: 7px;
+  }
+  
+  .pixel-dir-8 {
+    width: 5px;
+    height: 7px;
+    background: gray;
+    margin-left: 10px;
+  }
+  
+  .pixel-dir-9 {
+    width: 5px;
+    height: 9px;
+    background: gray;
+    margin-left: 15px;
+  }
+  
+  
+  /* sombra no braco direito */
+  
+  .sombra-brc-dr {
+    width: 15.5px;
+    height: 20px;
+    background: #d3d3d3;
+    margin-left: 125px;
+  }
+  
+  .sombra-brc-dr-2{
+    width: 18px;
+    height: 20px;
+    
+    margin-left: 12px;
+    
+  }
+#btn{
+  margin-top: 880px;
+  margin-left: 1090px;
+  z-index: 100;
+  width: 350px;
+  
+}
+
+
+  
+
+
+
+
+
+  
