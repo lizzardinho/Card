@@ -556,6 +556,7 @@ body {
   margin-left: 1090px;
   z-index: 100;
   width: 350px;
+  position: absolute;
   
 }
 
